@@ -14,7 +14,7 @@ let Pac_man = sprites.create(img`
     . . . . f f 5 5 5 f f . . . 
     . . . . . . f f f . . . . . 
     `, SpriteKind.Player)
-Pac_man.setPosition(135, 130)
+Pac_man.setPosition(170, 165)
 scene.cameraFollowSprite(Pac_man)
 scene.setBackgroundColor(15)
 tiles.setCurrentTilemap(tilemap`level1`)
